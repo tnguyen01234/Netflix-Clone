@@ -2,7 +2,7 @@ import axios from "axios";
 import { FaHeart, FaRegHeart } from 'react-icons/fa'
 import React, { useEffect, useState } from "react";
 import Movie from "./Movie";
-import { MdChevronLeft, MdChevronRight} from 'react-icons/md'
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 
 const Row = ({ title, fetchURL, rowID }) => {
   const [movies, setMovies] = useState([]);
