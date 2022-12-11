@@ -37,7 +37,7 @@ const Main = () => {
               Play Button
             </button>
             <button className="border  text-white border-gray-300 py-2 px-5 ml-4">
-              Play Button
+              Watch Later
             </button>
           </div>
           <p className="text-gray-400 text-sm">Released: {movie?.release_date}</p>
